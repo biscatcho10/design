@@ -1,0 +1,411 @@
+.navbar{
+    padding-bottom: 0;
+    padding-top: 0;
+    /* border-bottom: 2px solid rgb(102, 51, 153); */
+}
+
+.line{
+    width: 94%;
+    height: 2px;
+    background-color: rgb(102, 51, 153);
+    display: block;
+}
+
+.scond-nav{
+    width: 100%;
+    background-color: rgb(102, 51, 153);
+    color: #FFF;
+    padding: 13px;
+}
+
+.scond-nav a {
+    text-decoration-color: #FFF;
+    color: #FFF;
+    text-decoration: underline;
+}
+
+nav li {
+    padding: 8px 16px;
+    border: 2px solid rgb(102, 51, 153);
+    margin-top: 0px;
+}
+nav .first-child{
+    margin-left: 100px;
+}
+nav li a:link , nav li a:visited
+{
+    color: rgb(102, 51, 153) !important;
+}
+nav li:hover , nav li:active
+{
+    background-color: rgb(102, 51, 153);
+    color: #FFF !important;
+}
+nav li a:hover , nav li a:active
+{
+    color: #FFF !important;
+}
+
+nav .dropdown-item:hover , nav .dropdown-item:active
+{
+    background-color: rgb(102, 51, 153);
+}
+
+
+.user-icon
+{
+    margin-right: 0px;
+}
+
+nav .user-icon .fa-user {
+    background-color: rgb(102, 51, 153);
+    padding: 10px 12px;
+    font-size: 24px;
+    margin-right: 20px;
+    border-radius: 50%;
+    color: #FFF;
+}
+nav .fa-sign-out-alt{
+    font-size: 28px;
+    color: rgb(102, 51, 153);
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(102, 51, 153);
+    border-radius: 50%;
+    margin: 10px;
+}
+.carousel-control-prev-icon {
+    background-color: rgb(102, 51, 153);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.first-div h6{
+    color: rgb(102, 51, 153);
+}
+.first-div button
+{
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    width: 100%;
+}
+
+.first-div .considered-button
+{
+    color: #FFF;
+    background-color: rgb(102, 51, 153);
+    font-size: 20px;
+}
+.carousel-item .download-button
+{
+    color: #FFF;
+    background-color: rgb(102, 51, 153);
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    border-radius: 50px;
+    padding: 5px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.first-div .timer-button
+{
+    color: #111;
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.third-div .highlights
+{
+    color: #555;
+}
+.third-div ul li
+{
+    margin-top: 15px;
+}
+.third-div ul li a:link , .third-div ul li a:visited
+{
+    color: #777;
+}
+.third-div ul li a:hover , .third-div ul li a:active
+{
+    text-decoration: none;
+}
+.third-div .company
+{
+    color: rgb(102, 51, 153);
+}
+
+
+.investors-cards .invest-header
+{
+    background-color: rgb(102, 51, 153);
+    padding: 10px;
+    color: #FFF;
+    border-radius: 15px 15px 0  0;
+}
+
+.investors-cards .invest-body
+{
+    background-color: rgb(250, 249, 249);
+    padding: 10px;
+
+}
+
+.investors-cards .invest-body ul li .arrow
+{
+    color: rgb(102, 51, 153);
+    margin: 6px;
+}
+
+/* Opportunity main Deals Page */
+
+
+.main-deals nav {
+    background-color: rgb(102, 51, 153);
+}
+
+.main-deals nav li {
+    padding: 8px 16px;
+    border: 1px solid #FFF;
+    border-top: none ;
+    margin-top: 0px;
+    color: rgb(102, 51, 153);
+}
+.main-deals nav .first-child{
+    margin-left: 100px;
+}
+
+.main-deals nav li .dropdown-menu
+{
+    color: rgb(102, 51, 153) !important;
+    background-color: rgb(102, 51, 153);
+}
+
+.main-deals nav li:hover , .main-deals nav li:active
+{
+    background-color: #fff;
+    color: #FFF !important;
+}
+
+.main-deals nav li a:link , .main-deals nav li a:visited
+{
+    color: #fff !important
+}
+
+.main-deals nav li a:hover , .main-deals nav li a:active
+{
+    color: rgb(102, 51, 153) !important;
+}
+
+
+.main-deals nav .dropdown-item:hover , .main-deals nav .dropdown-item:active
+{
+    background-color: #fff;
+}
+
+
+.main-deals nav .user-icon .fa-user {
+    background-color: #fff;
+    padding: 10px 12px;
+    font-size: 24px;
+    margin-right: 20px;
+    border-radius: 50%;
+    color: rgb(156, 146, 146);
+}
+.main-deals nav .fa-sign-out-alt{
+    font-size: 28px;
+    color: #fff;
+}
+
+.white-line{
+    width: 94%;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+}
+
+.welcome .welcome-text{
+    background-color: rgb(102, 51, 153);
+    color: #fff;
+    padding: 100px;
+    height: 490px;
+
+}
+.welcome .welcome-img
+{
+    background-image: url(../images/person3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    border-radius: 0px 0px 0px 30px ;
+}
+
+.select-opp h3
+{
+    margin:30px 0px 40px 130px;
+}
+
+
+.select-opp .opp , .select-opp .opp:visited
+{
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    color: rgb(102, 51, 153);
+    border:1px solid rgb(102, 51, 153);
+    background-color: #fff;
+}
+
+.select-opp .opp:hover , .select-opp .opp:active
+{
+    border: none;
+    color: #FFF;
+    background-color: rgb(102, 51, 153);
+}
+
+.open-opp h3
+{
+    margin:50px 0px 55px 130px;
+}
+
+.open-opp .card .btn 
+{
+    background-color: rgb(102, 51, 153);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    font-size: small;
+}
+.open-opp .card .arrow
+{
+    color: rgb(102, 51, 153);
+}
+
+.open-opp .opp
+{
+    border-radius: 50px;
+    padding: 11px 22px;
+    font-size: 14px;
+    width: 100%;
+    background-color: rgb(102, 51, 153);
+    color: #fff;
+    margin: 40px auto;
+}
+
+.br-line
+{
+    width: 85%;
+    height: 2px;
+    background-color: rgb(201, 198, 198);
+    display: block;
+    margin: 10px auto;
+}
+
+/* protal Home */
+.content .app-header
+{
+    background-color: rgb(102, 51, 153);
+    padding: 10px;
+    color: #FFF;
+    border-radius: 15px 15px 0  0;
+}
+
+.content .app-body
+{
+    background-color: rgb(250, 249, 249);
+    padding: 10px;
+    box-shadow: 2px 2px 4px #fff;
+
+}
+
+
+.top-tabes
+{
+    background-color: rgb(102, 51, 153);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.top-tabes .tabe
+{
+    background-color:#fff;
+    border-radius: 10px;
+    padding: 5px; 
+    margin: 5px;
+}
+
+.top-tabes .tabe .icon
+{
+    background-color: rgb(102, 51, 153);
+    border-radius: 50%;
+    padding: 3px; 
+    width: 60px;
+    height:60px;
+    margin: 1px auto;
+}
+
+.top-tabes .tabe .icon .ico
+{
+    color:#fff;
+    font-size: 25px;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    right: 4px;
+}
+
+.tabe p
+{
+    margin: 4px;
+    font-size: 14px;
+}
+
+footer
+{
+    padding: 30px 0px 60px 0px;
+    background-color: rgb(102, 51, 153);
+    color: #fff;
+    margin-top: 800px;
+}
+
+.open-opp h2
+{
+    margin: 60px 0px 40px 0px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px){
+    nav .first-child {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-top: 30px !important;
+    }
+
+    nav .user-icon {
+        margin: 20px 0px !important;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    nav .first-child {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-top: 30px !important;
+    }
+
+    nav .user-icon {
+        margin: 20px 0px !important;
+    }
+}
