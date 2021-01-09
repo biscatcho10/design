@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Apply Now</title>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bg-white">
+
+    <section class="login-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-5 col-lg-5 view">
+                    <!-- <img src="../images/login.png" alt=""> -->
+                </div><!-- cols -->
+                <div class="col-sm-12 col-md-5 col-lg-5 pl-5">
+                    <h2 class="font-weight-bold rhead">Apply Now</h2>
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, veritatis sed illo cum quod illum.</p>
+                    <form action="" class="form-group">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input class="form-control mt-3" type="text" placeholder="First Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control mt-3" type="text" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <input class="form-control mt-3" type="email" placeholder="Email">
+                        <input class="form-control mt-3" type="password" placeholder="Password">
+                        <input class="form-control mt-3" type="text" placeholder="Mr.">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="radio" class="mt-4"> <label for="">Term & Conditions</label>
+                            </div>
+                            <div class="col-6">
+                                <input type="radio" class="mt-4"> <label style="font-size: 14px;">Data Protection Declaration</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="radio" class="mt-4"> <label for="">Newsletter</label>
+                            </div>
+                        </div>
+                        <button type="button" class="btn mt-3 form-control login-button text-uppercase" data-toggle="modal" href="#ignismyModal">submit your request</button>
+                    </form>
+                    <p class="dont-have-r">Already have an account? <a href="#" class="apply-link">Log In now</a></p>
+                </div><!-- cols -->
+                <div class="col-2"></div>
+
+                <!-- Vertically centered modal -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+
+    <section class="popup">
+        <!--Model Popup starts-->
+        <div class="container">
+            <div class="row">
+                <!-- <a class="btn btn-primary" data-toggle="modal" href="#ignismyModal">open Popup</a> -->
+                <div class="modal fade" id="ignismyModal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="border-radius: 30px;">
+                            <div class="modal-header">
+                               <img src="../images/success.png" class="img-fluid">
+                            </div>
+                            
+                            <div class="modal-body text-center">
+                                <h3>Thank You</h3>
+                                <p class="p-3">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore sit
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore sit Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Model Popup ends-->
+    </section>
+
+
+
+  <script src="../js/jquery-3.4.1.slim.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
