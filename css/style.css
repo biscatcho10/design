@@ -598,6 +598,7 @@ nav .fa-sign-out-alt {
   padding: 11px 22px;
   font-size: 14px;
   width: 100%;
+  border: none;
   background-color: rgb(102, 51, 153);
   color: #fff;
   margin: 40px auto;
@@ -681,6 +682,19 @@ footer {
   nav .user-icon {
     margin: 20px 0px !important;
   }
+  .welcome-text{
+    padding:150px 10px !important;
+  }
+  .builder h2{
+    font-size: 22px;
+  }
+  .first-div h3{
+      font-size: 22px;
+  }
+  .popup .sub {
+    width: 250px;
+    margin-left: 0px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   nav .first-child {
@@ -691,5 +705,26 @@ footer {
 
   nav .user-icon {
     margin: 20px 0px !important;
+  }
+  .welcome-text{
+    padding:150px 10px !important;
+  }
+  .benefits .card{
+    height: 420px;
+  }
+  .first-div h3{
+    font-size: 22px;
+  }
+  .select-opp .opp,
+  .select-opp .opp:visited {
+    font-size: 12px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .lead{
+    margin-top: -60px;
+  }
+  .lead2{
+    margin-top: 0px !important;
   }
 }

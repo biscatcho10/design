@@ -1,6 +1,13 @@
 body {
 	margin:  0;
 }
+
+.main-nav nav {
+    background-color: #663399;
+	border-bottom: 1px solid #FFF;
+	padding-top: -.5px;
+  }
+
 .page-content {
 	width: 100%;
 	margin:  0 auto;
