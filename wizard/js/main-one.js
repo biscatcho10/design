@@ -10,7 +10,7 @@ $(function(){
         labels: {
             previous : 'Back',
             next : 'Next',
-            finish : 'Submit',
+            finish : 'Done',
             current : ''
         },
         onStepChanging: function (event, currentIndex, newIndex) { 

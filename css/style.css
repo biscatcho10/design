@@ -555,6 +555,16 @@ nav .fa-sign-out-alt {
     margin: 15px 0px;
 }
 
+.goLogin
+{
+    border-radius: 20px;
+    background-color: rgb(102, 51, 153);
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 15px 0px;
+}
+
 .select-opp h3 {
   margin: 30px 0px 40px 130px;
 }
