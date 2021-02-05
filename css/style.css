@@ -49,19 +49,19 @@
 .navbar {
   padding-bottom: 0;
   padding-top: 0;
-  /* border-bottom: 2px solid rgb(102, 51, 153); */
+  /* border-bottom: 2px solid #663399; */
 }
 
 .line {
   width: 94%;
   height: 2px;
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   display: block;
 }
 
 .scond-nav {
   width: 100%;
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   color: #fff;
   padding: 13px;
 }
@@ -74,7 +74,7 @@
 
 nav li {
   padding: 8px 16px;
-  border: 2px solid rgb(102, 51, 153);
+  border: 2px solid #663399;
   margin-top: 0px;
 }
 nav .first-child {
@@ -82,11 +82,11 @@ nav .first-child {
 }
 nav li a:link,
 nav li a:visited {
-  color: rgb(102, 51, 153) !important;
+  color: #663399 !important;
 }
 nav li:hover,
 nav li:active {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   color: #fff !important;
 }
 nav li a:hover,
@@ -96,7 +96,7 @@ nav li a:active {
 
 nav .dropdown-item:hover,
 nav .dropdown-item:active {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
 }
 
 .user-icon {
@@ -104,7 +104,7 @@ nav .dropdown-item:active {
 }
 
 nav .user-icon .fa-user {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   padding: 10px 12px;
   font-size: 24px;
   margin-right: 20px;
@@ -113,7 +113,7 @@ nav .user-icon .fa-user {
 }
 nav .fa-sign-out-alt {
   font-size: 28px;
-  color: rgb(102, 51, 153);
+  color: #663399;
 }
 
 .vb {
@@ -384,18 +384,18 @@ nav .fa-sign-out-alt {
 
 /* Carousel */
 .carousel-control-next-icon {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   border-radius: 50%;
   margin: 10px;
 }
 .carousel-control-prev-icon {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   border-radius: 50%;
   margin: 10px;
 }
 
 .first-div h6 {
-  color: rgb(102, 51, 153);
+  color: #663399;
 }
 .first-div button {
   border: none;
@@ -406,12 +406,12 @@ nav .fa-sign-out-alt {
 
 .first-div .considered-button {
   color: #fff;
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   font-size: 20px;
 }
 .carousel-item .download-button {
   color: #fff;
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   font-size: 20px;
   position: relative;
   bottom: 40px;
@@ -442,11 +442,11 @@ nav .fa-sign-out-alt {
   text-decoration: none;
 }
 .third-div .company {
-  color: rgb(102, 51, 153);
+  color: #663399;
 }
 
 .investors-cards .invest-header {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   padding: 10px;
   color: #fff;
   border-radius: 15px 15px 0 0;
@@ -458,14 +458,14 @@ nav .fa-sign-out-alt {
 }
 
 .investors-cards .invest-body ul li .arrow {
-  color: rgb(102, 51, 153);
+  color: #663399;
   margin: 6px;
 }
 
 /* Opportunity main Deals Page */
 
 .main-deals nav {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
 }
 
 .main-deals nav li {
@@ -474,15 +474,15 @@ nav .fa-sign-out-alt {
   border-top: none;
   margin-top: -8px;
   margin-bottom: -13px;
-  color: rgb(102, 51, 153);
+  color: #663399;
 }
 .main-deals nav .first-child {
   margin-left: 100px;
 }
 
 .main-deals nav li .dropdown-menu {
-  color: rgb(102, 51, 153) !important;
-  background-color: rgb(102, 51, 153);
+  color: #663399 !important;
+  background-color: #663399;
 }
 
 .main-deals nav li:hover,
@@ -498,7 +498,7 @@ nav .fa-sign-out-alt {
 
 .main-deals nav li a:hover,
 .main-deals nav li a:active {
-  color: rgb(102, 51, 153) !important;
+  color: #663399 !important;
 }
 
 .main-deals nav .dropdown-item:hover,
@@ -527,7 +527,7 @@ nav .fa-sign-out-alt {
 }
 
 .welcome .welcome-text {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   color: #fff;
   padding: 150px;
   height: 490px;
@@ -544,14 +544,14 @@ nav .fa-sign-out-alt {
   border-radius: 20px;
   background-color: #fff;
   border: none;
-  color: rgb(102, 51, 153);
+  color: #663399;
   padding: 5px 15px;
   margin: 15px 0px;
 }
 
 .goLogin {
   border-radius: 20px;
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   border: none;
   color: #fff;
   padding: 5px 15px;
@@ -568,8 +568,8 @@ nav .fa-sign-out-alt {
   padding: 15px;
   font-size: 16px;
   width: 100%;
-  color: rgb(102, 51, 153);
-  border: 1px solid rgb(102, 51, 153);
+  color: #663399;
+  border: 1px solid #663399;
   background-color: #fff;
 }
 
@@ -577,7 +577,7 @@ nav .fa-sign-out-alt {
 .select-opp .opp:active {
   border: none;
   color: #fff;
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
 }
 
 .open-opp h3 {
@@ -585,7 +585,7 @@ nav .fa-sign-out-alt {
 }
 
 .open-opp .card .btn {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   color: #fff;
   border: none;
   border-radius: 20px;
@@ -593,7 +593,7 @@ nav .fa-sign-out-alt {
   font-size: small;
 }
 .open-opp .card .arrow {
-  color: rgb(102, 51, 153);
+  color: #663399;
 }
 
 .open-opp .opp {
@@ -602,7 +602,7 @@ nav .fa-sign-out-alt {
   font-size: 14px;
   width: 100%;
   border: none;
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   color: #fff;
   margin: 40px auto;
 }
@@ -617,7 +617,7 @@ nav .fa-sign-out-alt {
 
 /* protal Home */
 .content .app-header {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   padding: 10px;
   color: #fff;
   border-radius: 15px 15px 0 0;
@@ -630,7 +630,7 @@ nav .fa-sign-out-alt {
 }
 
 .top-tabes {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   border-radius: 15px;
   padding: 20px;
 }
@@ -643,7 +643,7 @@ nav .fa-sign-out-alt {
 }
 
 .top-tabes .tabe .icon {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   border-radius: 50%;
   padding: 3px;
   width: 60px;
@@ -667,7 +667,7 @@ nav .fa-sign-out-alt {
 
 footer {
   padding: 30px 0px 60px 0px;
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   color: #fff;
 }
 
@@ -700,17 +700,17 @@ footer {
   }
 
   .form {
-    border: 2px solid rgb(102, 51, 153);
+    border: 2px solid #663399;
     border-radius: 25px;
     min-height: 500px;
   }
   .form h3,
   .form h5 {
-    color: rgb(102, 51, 153);
+    color: #663399;
   }
 
   .form button {
-    background-color: rgb(102, 51, 153);
+    background-color: #663399;
     color: #fff;
   }
 }
@@ -780,7 +780,7 @@ footer {
   font-weight: bolder;
 }
 .upper-right .btn-up-move {
-  background-color: rgb(102, 51, 153);
+  background-color: #663399;
   color: #fff;
   border: none;
   border-radius: 30px;
@@ -791,8 +791,8 @@ footer {
 
 .upper-right .btn-up-move-out {
   background-color: #fff;
-  color: rgb(102, 51, 153);
-  border:1px solid rgb(102, 51, 153);
+  color: #663399;
+  border:1px solid #663399;
   border-radius: 30px;
   width: 550px;
   font-size: larger;
