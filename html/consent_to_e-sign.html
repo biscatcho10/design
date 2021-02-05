@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Apply Now</title>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bg-white">
+
+    <section class="login-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-5 col-lg-5 view">
+                    <!-- <img src="../images/login.png" alt=""> -->
+                </div><!-- cols -->
+                <div class="col-sm-12 col-md-5 col-lg-5 pl-5">
+                    <h2 class="font-weight-bold rhead">Apply Now</h2>
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, veritatis sed illo cum quod illum.</p>
+                    <form action="" class="form-group">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input class="form-control mt-3" type="text" placeholder="First Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control mt-3" type="text" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <input class="form-control mt-3" type="email" placeholder="Email">
+                        <input class="form-control mt-3" type="password" placeholder="Password">
+                        <input class="form-control mt-3" type="text" placeholder="Mr.">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="radio" class="mt-4"> <label for="">Term & Conditions</label>
+                            </div>
+                            <div class="col-6">
+                                <input type="radio" class="mt-4"> <label style="font-size: 14px;">Data Protection Declaration</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="radio" class="mt-4"> <label for="">Newsletter</label>
+                            </div>
+                        </div>
+                        <button type="button" class="btn mt-3 form-control login-button text-uppercase" data-toggle="modal" href="#ignismyModal">submit your request</button>
+                    </form>
+                    <p class="dont-have-r">Already have an account? <a href="login.html" class="apply-link">Log In now</a></p>
+                </div><!-- cols -->
+                <div class="col-2"></div>
+
+                <!-- Vertically centered modal -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+
+    <section class="popup">
+        <!--Model Popup starts-->
+        <div class="container">
+            <div class="row">
+                <!-- <a class="btn btn-primary" data-toggle="modal" href="#ignismyModal">open Popup</a> -->
+                <div class="modal fade" id="ignismyModal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="border: 3px solid rgb(102, 51, 153); margin: 10px 20px;border-radius: 30px;">
+                            <div class="modal-body text-center">
+                                <div class="msg" style="border: 1px solid rgb(102, 51, 153); margin: 10px ;border-radius: 10px;">
+                                    <h3  style="margin: 100px 0px;">I Consent To E-Sign pen 
+                                        <div class="icon d-inline-block" style="color: rgb(102, 51, 153);">
+                                            <i class="fas fa-signature fa-2x"></i>
+                                        </div>
+                                    </h3>
+
+                                    <p class="lead text-danger errorMsg" style="display: none;">"We're sorry, at this time e-signature is required to continue. If you need further assistance please contact us." </p>
+                                </div>
+                                
+                                <div class="navi">
+                                    <a href="" class="btn btn-outline-danger mr-2" style="border-radius: 25px;" id="disagree" >I Disagree</a>
+                                    <a href="" class="btn btn-outline-success" style="border-radius: 25px;" >I Agree</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Model Popup ends-->
+    </section>
+
+
+  <script src="../js/jquery-3.4.1.slim.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
